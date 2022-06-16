@@ -1,0 +1,12 @@
+/* @tailwind base;
+@tailwind components; */
+/* purgecss start ignore */
+html {
+  font-family: 'Prettywise', sans-serif;
+  background-color: #172139;
+}
+/* p {
+  @apply tracking-wide;
+} */
+/* purgecss end ignore */
+/* @tailwind utilities; */
