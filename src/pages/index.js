@@ -1,16 +1,17 @@
 // import Head from 'next/head';
-// import Layout from '@/components/Layout/Layout';
+
 // import Button from '@/components/Common/Button';
-import Logo from "@/components/Common/Logo";
-import Navbar from "@/components/Layout/Navbar";
+import Container from '@/components/Common/Container';
+import Jumbotron from '@/components/Homepage/Jumbotron';
+
+import Layout from '@/components/Layout/Layout';
 
 export default function Home() {
   return (
-    <>
-      <div>   
-          <Logo></Logo>  
-          <Navbar></Navbar>
-      </div>        
-    </>
+    <Layout>
+      <Container className="mt-4">
+        <Jumbotron />
+      </Container>
+    </Layout>
   );
 }
