@@ -1,21 +1,21 @@
-import React from 'react';
-import clsx from 'clsx';
+import React from 'react'
+import clsx from 'clsx'
 
 const Button = ({ props, children, variant, className }) => {
   return (
     <button
       className={clsx(
-        'px-5 py-3 rounded-xl text-sm font-medium   transition-all',
+        'py-3 px-14 rounded-xl text-sm   transition-all',
         className,
         variant === 'primary' && [
-          'text-white bg-indigo-500 hover:bg-indigo-800',
+          'text-white rounded-[4px] bg-brand-primary hover:bg-brand-tertiary',
         ],
         variant === 'secondary' && ['text-white bg-red-500 hover:bg-red-800']
       )}
     >
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button
