@@ -1,14 +1,62 @@
 [
  {
-  "imgSrc": "/artworks/1.png"
+  "imgSrc": "/artworks/1.png",
+  "title": "Poker Snob"
  },
  {
-  "imgSrc": "/artworks/2.png"
+  "imgSrc": "/artworks/2.png",
+  "title": "ARTMAZIGH"
  },
  {
-  "imgSrc": "/artworks/3.png"
+  "imgSrc": "/artworks/3.png",
+  "title": "Cyber Punk City"
  },
  {
-  "imgSrc": "/artworks/4.png"
+  "imgSrc": "/artworks/4.png",
+  "title": "King Kong vs Godzilla"
+ },
+ {
+  "imgSrc": "/artworks/5.png",
+  "title": "Maria"
+ },
+ {
+  "imgSrc": "/artworks/6.png",
+  "title": "Gamer Girl"
+ },
+ {
+  "imgSrc": "/artworks/7.png",
+  "title": "Mike Tyson"
+ },
+ {
+  "imgSrc": "/artworks/8.png",
+  "title": "Nobody Beats Me!"
+ },
+ {
+  "imgSrc": "/artworks/9.png",
+  "title": "Happy Demonz"
+ },
+ {
+  "imgSrc": "/artworks/10.png",
+  "title": "The Following Announcements"
+ },
+ {
+  "imgSrc": "/artworks/11.png",
+  "title": "Psychedelic"
+ },
+ {
+  "imgSrc": "/artworks/12.png",
+  "title": "Magical Bus Tours"
+ },
+ {
+  "imgSrc": "/artworks/13.png",
+  "title": "Raw Material"
+ },
+ {
+  "imgSrc": "/artworks/14.png",
+  "title": "Bonek"
+ },
+ {
+  "imgSrc": "/artworks/15.png",
+  "title": "We The People"
  }
 ]

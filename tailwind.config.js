@@ -36,12 +36,21 @@ module.exports = {
           30: '#D4D9DB',
           20: '#E2E6EA',
         },
+        gradient: {
+          
+        }        
       },
       backgroundImage: {
         'navbar-bg': 'linear-gradient(180deg, #1F2227 36.7%, #262931 112.44%)',
         slider:
-          'linear-gradient(74.22deg, #1F2227 13.24%, rgba(15, 23, 42, 0.413542) 83.89%, rgba(15, 23, 42, 0) 102.58%)',
+        'linear-gradient(74.22deg, #1F2227 13.24%, rgba(15, 23, 42, 0.413542) 83.89%, rgba(15, 23, 42, 0) 102.58%)',
+        gallery: 'linear-gradient(180deg, rgba(50, 50, 50, 0) -3.87%, rgba(50, 50, 50, 0.91) 80.74%)',
+        artwork: "url('/public/rectangle.svg')"
       },
+      backgroundColor: {
+        'primary':  '#1F2227'
+      },
+      
     },
   },
   plugins: [],
