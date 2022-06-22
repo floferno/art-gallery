@@ -19,12 +19,11 @@ const Gallery = () => {
           {gallery.map((el, i) => {
             return (
               <>
-                <div className="group object-cover">
-                  <p className="items-center text-2xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100 absolute flex pl-[32px] pt-[411px]">{gallery[i].title}</p>
-                  <div className=''>
-                    <img className="absolute h-[71%] opacity:100 group-hover:opacity-0 h-full" src='/rectangle.svg' />
-                    <img className="duration-500 transition-all opacity:10 delay-100 text-white" src={gallery[i].imgSrc} />
-                    {/* <div class="absolute -z-10 bg-gradient-to-t from-white via-gray-900 to-black h-[70vh] lg:h-[80vh]" /> */}
+              {/* class parent harus relative kalo childrennya pake class absolute */}
+                <div className="w-full h-[472px] group relative flex-auto"> 
+                  <img className="w-full h-full text-white" src={gallery[i].imgSrc} alt={gallery[i].title}/>
+                  <div className="bg-gallery top-0 left-0 bottom-0 right-0 flex absolute invisible group-hover:visible transition-all duration-100">
+                    <p className="text-xl text-brand-primary transition-all duration-500 opacity-0 group-hover:opacity-100 absolute flex-auto ml-[32px] mt-[411px] text-clip overflow-hidden">{gallery[i].title}</p>
                   </div>
                 </div>
               </>              
