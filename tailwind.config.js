@@ -24,6 +24,7 @@ module.exports = {
           tertiary: '#906C28',
           quaternary: '#1F2227',
           quinary: '#262931',
+          senary: '#16171A'
         },
         neutral: {
           100: '#000000',
@@ -50,6 +51,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: '#1F2227',
+        secondary: '#16171A'
       },
     },
   },
