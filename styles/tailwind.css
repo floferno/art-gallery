@@ -7,3 +7,8 @@
   @apply text-white;
  }
 }
+
+@font-face {
+    font-family: "prettywise";
+    src: url("../public/fonts/Fontspring-DEMO-prettywise-regular.otf");
+}

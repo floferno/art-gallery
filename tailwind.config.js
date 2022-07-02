@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        prettywise: ["prettywise", "regular"]
+      },
       fontSize: {
         '6xl': ['64px', '1.25'],
         '4xl': ['52px', '1'],

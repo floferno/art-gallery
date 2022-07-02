@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="border text-white h-[226px] w-auto mt-[100px] mb-[389px] border-brand-primary rounded-lg place-items-center grid grid-cols-4">
 
             <div className="grid-cols-4 mr-[30px] mb-[100px]">
-              <p className="ml-[34px] pt-[50px] text-[36px] font-700 leading-[50px]">Get informed for our latest update</p>
+              <p className="ml-[34px] pt-[50px] text-[36px] font-700 leading-[50px] font-prettywise">Get informed for our latest update</p>
             </div>
 
             <div className="grid-cols-4">

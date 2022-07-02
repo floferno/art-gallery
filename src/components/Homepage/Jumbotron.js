@@ -16,7 +16,7 @@ const Jumbotron = () => {
             <Container className="pt-44 pb-[188px]">
               <Grid>
                 <div className="col-span-6">
-                  <h1 className="font-semibold text-6xl text-white mb-5">
+                  <h1 className="font-semibold font-prettywise text-6xl text-white mb-5">
                     WE BELIEVE IN IMAGINATION
                   </h1>
                   <h6 className="text-white text-lg">

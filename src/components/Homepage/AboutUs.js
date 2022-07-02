@@ -18,7 +18,7 @@ const AboutUs = () => {
       </div>
       <div className="col-span-6 flex flex-col">
         <div className="flex flex-col">
-          <h3 className="text-2xl font-semibold mb-3 tracking-wide">
+          <h3 className="text-2xl font-semibold font-prettywise mb-3 tracking-wide">
             About Us
           </h3>
           <p className="text-sm mb-8">
@@ -33,14 +33,14 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-col">
-          <h4 className="text-lg font-semibold mb-1">Vision</h4>
+          <h4 className="text-lg font-semibold mb-1 font-prettywise">Vision</h4>
           <p className="text-sm mb-8">
             To gain trust, love and respect from everyone by realizing every
             imagination through works of illustration art
           </p>
         </div>
         <div className="flex flex-col">
-          <h4 className="text-lg font-semibold mb-1">Mission</h4>
+          <h4 className="font-prettywise text-lg font-semibold mb-1">Mission</h4>
           <ul className="text-sm list-none list-outside ml-6">
             <li className='before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4'>
               Doing illustration artworks based on freedom of expression and

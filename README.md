@@ -4,7 +4,7 @@ Simple NextJS Tailwind Starter for fast prototyping.
 
 ## Installation
 
-The installation is very easy run the install command.
+The installation is very easy to run the install command.
 
 ```bash
 npm install
@@ -16,7 +16,7 @@ Next up we can run the dev server:
 npm run dev
 ```
 
-And you're website will start up.
+And your website will start up.
 
 ## Modifying the project
 

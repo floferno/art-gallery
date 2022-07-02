@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="col-span-2 flex items-center">
               <Image width={97} height={78} src="/logo-art.png" alt="Logo" />
             </div>
-            <div className="col-span-4 col-end-13 flex items-center justify-end gap-10">
+            <div className="font-prettywise col-span-4 col-end-13 flex items-center justify-end gap-10">
               <a
                 href=""
                 className="transition-all text-white border-b-transparent hover:text-brand-primary text-xl py-[30px]  border-b-4 hover:border-brand-primary"
