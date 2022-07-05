@@ -7,6 +7,7 @@ import AboutUs from '@/components/Homepage/AboutUs'
 
 import Jumbotron from '@/components/Homepage/Jumbotron'
 import OurService from '@/components/Homepage/OurService'
+import TopSeller from '@/components/Homepage/TopSeller'
 import Layout from '@/components/Layout/Layout'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Container className="mt-4">
         <AboutUs />
         <OurService />
+        <TopSeller />
       </Container>
     </Layout>
   )

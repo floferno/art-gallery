@@ -15,7 +15,7 @@ const OurService = () => {
   ]
 
   return (
-    <Grid>
+    <Grid className={'mb-[200px]'}>
       <div className="col-span-3">
         <h2 className="text-2xl font-semibold mb-11 text-white">Our Service</h2>
       </div>
