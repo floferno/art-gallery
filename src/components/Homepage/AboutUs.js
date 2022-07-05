@@ -40,17 +40,19 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-col">
-          <h4 className="font-prettywise text-lg font-semibold mb-1">Mission</h4>
+          <h4 className="font-prettywise text-lg font-semibold mb-1">
+            Mission
+          </h4>
           <ul className="text-sm list-none list-outside ml-6">
-            <li className='before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4'>
+            <li className="dots-white">
               Doing illustration artworks based on freedom of expression and
               professionalism,
             </li>
-            <li className='before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4'>
+            <li className="dots-white">
               Becoming a space for imaginators (clients) and illustrators to
               explore and communicate ideas and imaginations,
             </li>
-            <li className='before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4'>
+            <li className="dots-white">
               Producing high-quality illustration arts by prioritizing the
               values of professionalism and beauty.
             </li>

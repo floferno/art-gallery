@@ -4,7 +4,13 @@
 
 @layer base {
  body{
-  @apply text-white;
+  @apply text-white ;
+ }
+ h1,h2,h3,h4,h5,h6 {
+    @apply font-prettywise tracking-[0.03em];
+ }
+ .dots-white{
+    @apply before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4;
  }
 }
 
