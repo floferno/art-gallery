@@ -7,6 +7,7 @@ import AboutUs from '@/components/Homepage/AboutUs'
 
 import Jumbotron from '@/components/Homepage/Jumbotron'
 import OurService from '@/components/Homepage/OurService'
+import Testimony from '@/components/Homepage/Testimony'
 import TopSeller from '@/components/Homepage/TopSeller'
 import Layout from '@/components/Layout/Layout'
 
@@ -18,6 +19,7 @@ export default function Home() {
         <AboutUs />
         <OurService />
         <TopSeller />
+        <Testimony />
       </Container>
     </Layout>
   )

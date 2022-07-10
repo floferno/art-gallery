@@ -13,6 +13,14 @@
     @apply before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4;
  }
 }
+@layer components {
+   .swiper-slide {
+      @apply flex justify-center items-center;
+    }
+    #activity-slider .swiper-slide {
+       width: 497px;
+    }
+}
 
 @font-face {
     font-family: "prettywise";
