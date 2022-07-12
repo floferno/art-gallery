@@ -14,14 +14,21 @@
  }
 }
 @layer components {
-   .swiper-slide {
-      @apply flex justify-center items-center;
-    }
-    #activity-slider .swiper-slide {
-       width: 497px;
-    }
+   
 }
 
+.swiper{
+   @apply w-full;
+}
+.swiper-slide {
+   @apply flex justify-center items-center;
+ }
+ #testimoni-slider .swiper-slide {
+    width: 497px;
+ }
+ #testimoni-slider.swiper {
+   @apply pb-10;
+ }
 @font-face {
     font-family: "prettywise";
     src: url("../public/fonts/Fontspring-DEMO-prettywise-regular.otf");

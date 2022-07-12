@@ -19,8 +19,8 @@ export default function Home() {
         <AboutUs />
         <OurService />
         <TopSeller />
-        <Testimony />
       </Container>
+      <Testimony />
     </Layout>
   )
 }
