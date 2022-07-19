@@ -19,7 +19,7 @@ const Jumbotron = () => {
                   <h1 className="font-semibold font-prettywise text-6xl text-white mb-5">
                     WE BELIEVE IN IMAGINATION
                   </h1>
-                  <h6 className="text-white text-lg">
+                  <h6 className="text-white text-lg font-SFPro">
                     <strong> 1,334 people’s</strong> have teamed up with us to
                     make their imaginations come true.{' '}
                   </h6>

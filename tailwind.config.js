@@ -6,8 +6,20 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        prettywise: ["prettywise", "regular"]
+        "poppins": ["Poppins", "sans-serif"],
+        // "prettywise": ["Prettywise", "regular"],
+        // "prettywise-md": ["Prettywise Medium", "medium"],
+        // "prettywise-semibold": ["Prettywise Semibold", "semibold"],
+        // "prettywise-bold": ["Prettywise Bold", "bold"],
+        // "prettywise-extrabold": ["Prettywise Extrabold", "extrabold"],
+        "prettywise": [
+                    "Prettywise Regular", 
+                    "Prettywise Medium",
+                    "Prettywise Semibold",
+                    "Prettywise Bold",
+                    "Prettywise Extrabold",
+                ],
+        "SFPro": ["SFPro", "regular"]
       },
       fontSize: {
         '6xl': ['64px', '1.25'],
@@ -42,7 +54,7 @@ module.exports = {
           20: '#E2E6EA',
         },
         gradient: {
-          black: '#323232e8',
+          black: '#323232e8'
         },
       },
       backgroundImage: {
