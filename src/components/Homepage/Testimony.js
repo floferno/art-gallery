@@ -45,7 +45,7 @@ const Testimony = () => {
           </div>
         </Container>
       </div>
-      <div className="max-w-[1340px] ml-auto">
+      <div className="max-w-[1340px] ml-auto 2xl:mx-auto">
         <Swiper
           // install Swiper modules
           modules={[Navigation, A11y]}
