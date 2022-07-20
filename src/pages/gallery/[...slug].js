@@ -1,38 +1,20 @@
 import Container from '@/components/Common/Container'
 import Grid from '@/components/Common/Grid'
+import Sidebar from '@/components/GalleryDetails/Sidebar'
 import Thumbnails from '@/components/GalleryDetails/Thumbnails'
 import Layout from '@/components/Layout/Layout'
-import { ShareIcon } from '@heroicons/react/solid'
+
 import Image from 'next/image'
 import React from 'react'
-import StarIcon from '../../../public/icons/star.svg'
+
 const GalleryDetails = () => {
   return (
     <Layout>
       <Thumbnails />
       <Container className={'mb-52'}>
         <Grid className={'pt-11'}>
-          <div className="col-span-2">
-            <div className="flex flex-col gap-3">
-              <p className="text-neutral-50 text-xs">Client</p>
-              <p className="text-base mb-1">Mastermind</p>
-              <div className="flex flex-col">
-                <p className="text-xs text-neutral-50 mb-1">
-                  Rating from Fiverr
-                </p>
-                <div className="flex items-center">
-                  <StarIcon className="h-4 w-4 mr-1" />
-                  <p>5</p>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <p className="text-xs text-neutral-50 mb-1">Date</p>
-                <p className="text-base">01 January 2022</p>
-              </div>
-              <button>
-                <ShareIcon className="h-6 w-6 text-white" />
-              </button>
-            </div>
+          <div className="col-span-2 h-full">
+            <Sidebar />
           </div>
           <div className="col-span-10 flex flex-col gap-7">
             <h6 className="text-xl font-semibold font-sf-pro">
