@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        prettywise: ["prettywise", "regular"]
+        poppins: ['Poppins', 'sans-serif'],
+        prettywise: ['prettywise', 'regular'],
+        'sf-pro': ['San Francisco', 'sans-serif'],
       },
       fontSize: {
         '6xl': ['64px', '1.25'],
@@ -28,7 +29,7 @@ module.exports = {
           tertiary: '#906C28',
           quaternary: '#1F2227',
           quinary: '#262931',
-          senary: '#16171A'
+          senary: '#16171A',
         },
         neutral: {
           100: '#000000',
@@ -55,7 +56,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: '#1F2227',
-        secondary: '#16171A'
+        secondary: '#16171A',
       },
     },
   },
