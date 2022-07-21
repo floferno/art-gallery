@@ -7,11 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         "poppins": ["Poppins", "sans-serif"],
-        // "prettywise": ["Prettywise", "regular"],
-        // "prettywise-md": ["Prettywise Medium", "medium"],
-        // "prettywise-semibold": ["Prettywise Semibold", "semibold"],
-        // "prettywise-bold": ["Prettywise Bold", "bold"],
-        // "prettywise-extrabold": ["Prettywise Extrabold", "extrabold"],
         "prettywise": [
                     "Prettywise Regular", 
                     "Prettywise Medium",

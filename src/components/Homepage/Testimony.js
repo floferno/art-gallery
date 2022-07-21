@@ -7,7 +7,7 @@ import Container from '../Common/Container'
 import React from 'react'
 import useSwiperRef from '@/hooks/useSwiperRef'
 import CardPerson from './components/CardPerson'
-import { Navigation, A11y } from 'swiper'
+// import { Navigation, A11y } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/scrollbar'
@@ -48,7 +48,7 @@ const Testimony = () => {
       <div className="max-w-[1340px] ml-auto">
         <Swiper
           // install Swiper modules
-          modules={[Navigation, A11y]}
+          // modules={[Navigation, A11y]}
           spaceBetween={20}
           slidesPerView={'auto'}
           // centeredSlides={true}
