@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+   @font-face {
+      font-family: "prettywise";
+      src: url("../public/fonts/Fontspring-DEMO-prettywise-regular.otf");
+  }
+   @font-face {
+      font-family: "San Francisco";
+      src: url("../public/fonts/sf-pro-display-regular.otf");
+  }
  body{
-  @apply text-white ;
+  @apply text-white font-sf-pro;
  }
  h1,h2,h3,h4,h5,h6 {
     @apply font-prettywise tracking-[0.03em];
@@ -12,7 +20,6 @@
  .dots-white{
     @apply before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4;
  }
-
 }
 @layer components {
    
@@ -30,56 +37,3 @@
  #testimoni-slider.swiper {
    @apply pb-10;
  }
-@font-face {
-    font-family: "Prettywise Regular";
-    font-weight: 400;
-    src: url("../public/fonts/Fontspring-DEMO-prettywise-regular.otf");
-}
-
-@font-face {
-    font-family: "Prettywise Medium";
-    font-weight: 500;
-    src: url("../public/fonts/Fontspring-DEMO-prettywise-medium.otf");
-}
-
-@font-face {
-    font-family: "Prettywise Semibold";
-    font-weight: 600;
-    src: url("../public/fonts/Fontspring-DEMO-prettywise-semibold.otf");
-}
-
-@font-face {
-    font-family: "Prettywise Bold";
-    font-weight: 700;
-    src: url("../public/fonts/Fontspring-DEMO-prettywise-bold.otf");
-}
-
-@font-face {
-    font-family: "Prettywise Extrabold";
-    font-weight: 800;
-    src: url("../public/fonts/Fontspring-DEMO-prettywise-extrabold.otf");
-}
-
-@font-face {
-    font-family: "SF Pro Regular";
-    font-weight: 400;
-    src: url("../public/fonts/SF-Pro-Display-Regular.otf");
-}
-
-@font-face {
-    font-family: "SF Pro Medium";
-    /* font-weight: 400; */
-    src: url("../public/fonts/SF-Pro-Display-Medium.otf");
-}
-
-@font-face {
-    font-family: "SF Pro Semibold";
-    /* font-weight: 400; */
-    src: url("../public/fonts/SF-Pro-Display-Semibold.otf");
-}
-
-@font-face {
-    font-family: "SF Pro Bold";
-    /* font-weight: 400; */
-    src: url("../public/fonts/SF-Pro-Display-Bold.otf");
-}
