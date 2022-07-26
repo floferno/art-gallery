@@ -4,8 +4,8 @@ import Grid from '../Common/Grid'
 
 const AboutUs = () => {
   return (
-    <Grid className="mb-[120px]">
-      <div className="col-span-6 relative">
+    <Grid className="mb-14 lg:mb-[120px]">
+      <div className="col-span-full lg:col-span-6 order-2 lg:order-1 relative">
         <Image
           width={607}
           height={458}
@@ -16,12 +16,12 @@ const AboutUs = () => {
           quality={100}
         />
       </div>
-      <div className="col-span-6 flex flex-col">
+      <div className="col-span-full lg:col-span-6 order-1 lg:order-2 flex flex-col">
         <div className="flex flex-col">
-          <h3 className="text-2xl font-semibold font-prettywise mb-3 tracking-wide">
+          <h3 className="text-xl lg:text-2xl font-semibold font-prettywise mb-3 tracking-wide">
             About Us
           </h3>
-          <p className="text-sm mb-8">
+          <p className="text-sm mb-4 lg:mb-8">
             Inspired by a nomadic tribe that calls themselves the Amazigh (which
             means free or noble people) in North Africa, Artmazigh team believes
             that everyone is free and unique individual, and imagination is no
@@ -33,14 +33,16 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-col">
-          <h4 className="text-lg font-semibold mb-1 font-prettywise">Vision</h4>
-          <p className="text-sm mb-8">
+          <h4 className="text-base lg:text-lg font-semibold mb-1 font-prettywise">
+            Vision
+          </h4>
+          <p className="text-sm mb-4 lg:mb-8">
             To gain trust, love and respect from everyone by realizing every
             imagination through works of illustration art
           </p>
         </div>
         <div className="flex flex-col">
-          <h4 className="font-prettywise text-lg font-semibold mb-1">
+          <h4 className="font-prettywise text-base lg:text-lg font-semibold mb-1">
             Mission
           </h4>
           <ul className="text-sm list-none list-outside ml-6">

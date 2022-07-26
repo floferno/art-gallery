@@ -15,13 +15,15 @@ const OurService = () => {
   ]
 
   return (
-    <Grid className={'mb-[200px]'}>
-      <div className="col-span-3">
-        <h2 className="text-2xl font-semibold mb-11 text-white">Our Service</h2>
+    <Grid className={'mb-14 lg:mb-[200px]'}>
+      <div className="col-start-2 col-span-2 lg:col-span-3">
+        <h2 className="text-xl lg:text-2xl font-semibold mb-11 text-white text-center xl">
+          Our Service
+        </h2>
       </div>
       <div className="col-span-full ">
         <Tab.Group defaultIndex={0}>
-          <Tab.List className="gap-4 flex mb-8">
+          <Tab.List className="gap-4 flex mb-8 overflow-x-auto lg:overflow-x-hidden">
             {serviceButton.map((item, index) => {
               return (
                 <Tab as={Fragment}>

@@ -11,8 +11,9 @@
       font-family: "San Francisco";
       src: url("../public/fonts/sf-pro-display-regular.otf");
   }
+
  body{
-  @apply text-white font-sf-pro;
+  @apply text-white font-sf-pro ;
  }
  h1,h2,h3,h4,h5,h6 {
     @apply font-prettywise tracking-[0.03em];
@@ -34,6 +35,21 @@
  #testimoni-slider .swiper-slide {
     width: 497px;
  }
+ @media screen and (min-width: 768px) {
+    #testimoni-slider .swiper-slide {
+       width: 497px;
+    }
+ }
+   
+
+ @media screen and (min-width: 1280px) {
+    #testimoni-slider .swiper-slide {
+      width: 497px;
+    }
+ }
+   
+ 
+
  #testimoni-slider.swiper {
    @apply pb-10;
  }

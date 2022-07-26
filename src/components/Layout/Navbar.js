@@ -10,16 +10,25 @@ export default function Navbar() {
         <Container>
           <Grid>
             <div className="col-span-2 flex items-center">
-              <Image width={97} height={78} src="/logo-art.png" alt="Logo" />
+              <div className="overflow-hidden w-[34px] h-[28px] md:w-[46px] md:h-[36px] lg:w-[97px] lg:h-[78px] object-cover relative">
+                <Image
+                  width={97}
+                  height={78}
+                  src="/logo-art.png"
+                  alt="Logo"
+                  objectFit="fill"
+                  layout="fill"
+                />
+              </div>
             </div>
             <div className="font-prettywise col-span-4 col-end-13 flex items-center justify-end gap-10">
               <Link href={'/gallery'}>
-                <a className="transition-all text-white border-b-transparent hover:text-brand-primary text-xl py-[30px]  border-b-4 hover:border-brand-primary">
+                <a className="transition-all text-white border-b-transparent hover:text-brand-primary text-base lg:text-xl py-[30px]  border-b-4 hover:border-brand-primary">
                   Gallery
                 </a>
               </Link>
               <Link href={'/contact-us'}>
-                <a className="transition-all text-white border-b-transparent text-xl py-[30px] border-b-4 hover:border-brand-primary hover:text-brand-primary">
+                <a className="transition-all text-white border-b-transparent text-base lg:text-xl py-[30px] border-b-4 hover:border-brand-primary hover:text-brand-primary">
                   Contact us
                 </a>
               </Link>
