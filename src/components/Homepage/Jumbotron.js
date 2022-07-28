@@ -15,7 +15,7 @@ const Jumbotron = () => {
           <div className="w-full h-full bg-slider ">
             <Container className="py-9 lg:pt-44 lg:pb-[188px]">
               <Grid>
-                <div className="col-span-3 lg:col-span-6">
+                <div className="col-span-4 sm:col-span-3 lg:col-span-6 pr-16 sm:pr-0">
                   <h1 className="font-semibold font-prettywise text-xl lg:text-6xl text-white mb-[10px] lg:mb-5">
                     WE BELIEVE IN IMAGINATION
                   </h1>
@@ -27,7 +27,9 @@ const Jumbotron = () => {
                     It’s your turn now!
                   </h6>
 
-                  <Button variant="primary">Learn More</Button>
+                  <Button variant="primary" className={'w-[162px] sm:w-auto'}>
+                    Learn More
+                  </Button>
                 </div>
               </Grid>
             </Container>

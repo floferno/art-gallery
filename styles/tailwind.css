@@ -33,7 +33,7 @@
    @apply flex justify-center items-center;
  }
  #testimoni-slider .swiper-slide {
-    width: 497px;
+    width: 320px;
  }
  @media screen and (min-width: 768px) {
     #testimoni-slider .swiper-slide {

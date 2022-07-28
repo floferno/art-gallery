@@ -17,10 +17,10 @@ const Testimony = () => {
   const [nextEl, nextElRef] = useSwiperRef()
   const [prevEl, prevElRef] = useSwiperRef()
   return (
-    <div className="flex flex-col mb-[270px]">
-      <div className="flex justify-between mb-11">
+    <div className="flex flex-col mb-[200px] sm:mb-[270px]">
+      <div className="flex justify-between mb-4 sm:mb-11">
         <Container className={'flex items-center justify-between'}>
-          <h2 className="text-2xl font-semibold  text-white">
+          <h2 className="text-xl sm:text-2xl font-semibold  text-white">
             what did they say
           </h2>
 
@@ -45,7 +45,7 @@ const Testimony = () => {
           </div>
         </Container>
       </div>
-      <div className=" max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1340px] ml-auto 2xl:mx-auto overflow-x-hidden">
+      <div className=" max-w-[340px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1340px] mx-auto sm:ml-auto sn:mr-0 2xl:mx-auto overflow-x-hidden">
         <Swiper
           // install Swiper modules
           // modules={[Navigation, A11y]}
@@ -64,7 +64,7 @@ const Testimony = () => {
         >
           {data.slice(0, 7).map((data, i) => (
             <SwiperSlide key={i}>
-              <div className="w-[497px] h-[133px] ">
+              <div className="w-[320px] sm:w-[497px] h-[133px] ">
                 <CardPerson />
               </div>
             </SwiperSlide>

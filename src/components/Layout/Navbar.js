@@ -21,14 +21,14 @@ export default function Navbar() {
                 />
               </div>
             </div>
-            <div className="font-prettywise col-span-4 col-end-13 flex items-center justify-end gap-10">
+            <div className="font-prettywise col-span-2 lg:col-span-4 lg:col-end-13 flex items-center justify-end gap-4 sm:gap-10">
               <Link href={'/gallery'}>
-                <a className="transition-all text-white border-b-transparent hover:text-brand-primary text-base lg:text-xl py-[30px]  border-b-4 hover:border-brand-primary">
+                <a className="transition-all text-white border-b-transparent hover:text-brand-primary text-base lg:text-xl py-5 sm:py-[30px]  border-b-4 hover:border-brand-primary">
                   Gallery
                 </a>
               </Link>
               <Link href={'/contact-us'}>
-                <a className="transition-all text-white border-b-transparent text-base lg:text-xl py-[30px] border-b-4 hover:border-brand-primary hover:text-brand-primary">
+                <a className="transition-all text-white border-b-transparent text-base lg:text-xl py-5 sm:py-[30px] border-b-4 hover:border-brand-primary hover:text-brand-primary">
                   Contact us
                 </a>
               </Link>

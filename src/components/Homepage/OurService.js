@@ -17,7 +17,7 @@ const OurService = () => {
   return (
     <Grid className={'mb-14 lg:mb-[200px]'}>
       <div className="col-start-2 col-span-2 lg:col-span-3">
-        <h2 className="text-xl lg:text-2xl font-semibold mb-11 text-white text-center xl">
+        <h2 className="text-xl lg:text-2xl font-semibold lg:mb-11 text-white text-center ">
           Our Service
         </h2>
       </div>
@@ -30,7 +30,7 @@ const OurService = () => {
                   {({ selected }) => (
                     <Button
                       variant={selected ? 'primary' : 'outline'}
-                      className="flex-grow rounded"
+                      className="flex-grow rounded flex-shrink-0 sm:flex-shrink"
                       key={index}
                     >
                       {item}
@@ -46,7 +46,7 @@ const OurService = () => {
               <Tab.Panels>
                 <Tab.Panel
                   key={index}
-                  className="grid grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8 w-full"
+                  className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8 w-full"
                 >
                   {item.map((packageItem, index) => {
                     return (

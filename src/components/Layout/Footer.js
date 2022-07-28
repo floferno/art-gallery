@@ -14,7 +14,7 @@ const Footer = () => {
         <Container className={'flex flex-col '}>
           <div className="border text-white p-6 xl:py-[63px] xl:px-[34px] w-auto border-brand-primary bg-brand-quaternary rounded-lg relative  -mt-[135px]">
             <div className="flex items-end flex-col xl:flex-row">
-              <h3 className="font-bold text-[36px] leading-relaxed xl:mr-2 mx-auto xl:mx-0">
+              <h3 className="font-bold text-xl sm:text-[36px] leading-relaxed xl:mr-2 mx-auto xl:mx-0 mb-6 sm:mb-0">
                 Get informed for our latest update
               </h3>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                     placeholder="Input your e-mail here..."
                   />
                 </div>
-                <Button className={'max-w-[186px] w-full'} variant="primary">
+                <Button className={'sm:max-w-[186px] w-full'} variant="primary">
                   Send
                 </Button>
               </form>
