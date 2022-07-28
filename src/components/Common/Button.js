@@ -6,7 +6,7 @@ const Button = ({ props, children, variant, className, onClick }) => {
     <button
       onClick={onClick}
       className={clsx(
-        'py-3 px-14 rounded-xl text-xs lg:text-sm   transition-all border',
+        'py-2 px-[11px] xl:py-3 xl:px-14 rounded-xl text-xs lg:text-sm   transition-all border',
         className,
         variant === 'primary' && [
           'text-white rounded-[4px] bg-brand-primary hover:bg-brand-tertiary border-brand-primary hover:border-brand-tertiary',

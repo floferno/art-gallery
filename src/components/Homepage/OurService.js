@@ -46,7 +46,7 @@ const OurService = () => {
               <Tab.Panels>
                 <Tab.Panel
                   key={index}
-                  className="grid grid-cols-3 gap-8 w-full"
+                  className="grid grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8 w-full"
                 >
                   {item.map((packageItem, index) => {
                     return (
