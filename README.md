@@ -1,4 +1,4 @@
-# Art-Gallery
+# Art Gallery
 A web page for showcasing artworks and their details, price ranges, clients' reviews and rates.
 
 ## Home Page
