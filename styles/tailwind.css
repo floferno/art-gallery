@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   @font-face {
+      font-family: "prettywise";
+      src: url("../public/fonts/Fontspring-DEMO-prettywise-regular.otf");
+  }
+   @font-face {
+      font-family: "San Francisco";
+      src: url("../public/fonts/sf-pro-display-regular.otf");
+  }
+
+ body{
+  @apply text-white font-sf-pro ;
+ }
+ h1,h2,h3,h4,h5,h6 {
+    @apply font-prettywise tracking-[0.03em];
+ }
+ .dots-white{
+    @apply before:content-["\2022"] before:text-white before:font-bold before:inline-block before:w-3 before:text-base before:absolute relative before:-ml-4;
+ }
+}
+@layer components {
+   
+}
+
+.swiper{
+   @apply w-full;
+}
+.swiper-slide {
+   @apply flex justify-center items-center;
+ }
+ #testimoni-slider .swiper-slide {
+    width: 320px;
+ }
+ @media screen and (min-width: 768px) {
+    #testimoni-slider .swiper-slide {
+       width: 497px;
+    }
+ }
+   
+
+ @media screen and (min-width: 1280px) {
+    #testimoni-slider .swiper-slide {
+      width: 497px;
+    }
+ }
+   
+ 
+
+ #testimoni-slider.swiper {
+   @apply pb-10;
+ }
