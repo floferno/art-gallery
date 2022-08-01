@@ -13,10 +13,11 @@ const GalleryDetails = () => {
       <Thumbnails />
       <Container className={'mb-52'}>
         <Grid className={'pt-11'}>
-          <div className="col-span-2 h-full">
+          <div className="cols-span-1 lg:col-span-2 h-full hidden sm:block">
             <Sidebar />
           </div>
-          <div className="col-span-10 flex flex-col gap-7">
+          <div className="col-span-full sm:col-span-3 lg:col-span-10 flex flex-col gap-7">
+           
             <h6 className="text-xl font-semibold font-sf-pro">
               Lörem ipsum intravask askap kromovis, jag nåktigt.{' '}
             </h6>

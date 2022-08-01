@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import StarIcon from '../../../public/icons/star.svg'
 import Sticky from 'react-sticky-el'
 
 import { ShareIcon } from '@heroicons/react/solid'
+import clsx from 'clsx'
 const Sidebar = () => {
+  const [isSticky, setIsSticky] = React.useState(false)
+  const onFixedToggle = () => {
+    setIsSticky(!isSticky)
+  }
+
   return (
-    <Sticky>
-      <div className="flex flex-col gap-3">
+    <Sticky onFixedToggle={onFixedToggle}>
+      <div
+        className={clsx(
+          'flex flex-col gap-3 transition-all',
+          isSticky ? 'pt-8' : 'pt-0'
+        )}
+      >
         <p className="text-neutral-50 text-xs">Client</p>
         <p className="text-base mb-1">Mastermind</p>
         <div className="flex flex-col">

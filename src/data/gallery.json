@@ -1,59 +1,86 @@
 [
  {
   "imgSrc": "/artworks/1.png",
-  "title": "Poker Snob"
+  "title": "Poker Snob",
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/2.png",
   "title": "ARTMAZIGH"
+  ,
+  "link": "artmazigh"
  },
  {
   "imgSrc": "/artworks/3.png",
   "title": "Cyber Punk City"
+  ,
+  "link": "cyber-punk"
  },
  {
   "imgSrc": "/artworks/4.png",
   "title": "King Kong vs Godzilla"
+  ,
+  "link": "king-kong"
  },
  {
   "imgSrc": "/artworks/5.png",
   "title": "Maria"
+  ,
+  "link": "maria"
  },
  {
   "imgSrc": "/artworks/6.png",
   "title": "Gamer Girl"
+  ,
+  "link": "gamer-girl"
  },
  {
   "imgSrc": "/artworks/7.png",
   "title": "Mike Tyson"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/8.png",
   "title": "Nobody Beats Me!"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/9.png",
   "title": "Happy Demonz"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/10.png",
   "title": "The Following Announcements"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/11.png",
   "title": "Psychedelic"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/12.png",
   "title": "Magical Bus Tours"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/13.png",
   "title": "Raw Material"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/14.png",
   "title": "Bonek"
+  ,
+  "link": "poker-snob"
  },
  {
   "imgSrc": "/artworks/15.png",
