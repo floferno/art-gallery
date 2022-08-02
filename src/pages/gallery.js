@@ -1,9 +1,13 @@
 import Container from '@/components/Common/Container'
 import Layout from '@/components/Layout/Layout'
-import React from 'react'
+import React, { Fragment } from 'react'
 import Image from 'next/image'
 import gallery from '../data/gallery.json'
 import Link from 'next/link'
+import Grid from '@/components/Common/Grid'
+import { Tab } from '@headlessui/react'
+import Button from '@/components/Common/Button'
+import { serviceButton } from '@/components/Homepage/OurService'
 /*
  * * 1. Container sesuai design
  * * 2. Grid sesuai design, grid 3 column. & ga ada jaraknya.
@@ -16,6 +20,46 @@ const Gallery = () => {
   return (
     <Layout>
       <Container>
+        <Grid>
+          <div className="col-span-full ">
+            <Tab.Group defaultIndex={0}>
+              <Tab.List className="gap-4 flex mb-8 overflow-x-auto lg:overflow-x-hidden">
+                {serviceButton.map((item, index) => {
+                  return (
+                    <Tab as={Fragment}>
+                      {({ selected }) => (
+                        <Button
+                          variant={selected ? 'primary' : 'outline'}
+                          className="flex-grow rounded flex-shrink-0 sm:flex-shrink"
+                          key={index}
+                        >
+                          {item}
+                        </Button>
+                      )}
+                    </Tab>
+                  )
+                })}
+              </Tab.List>
+
+              {gallery.map((item, index) => {
+                return (
+                  <Tab.Panels>
+                    <Tab.Panel
+                      key={index}
+                      className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8 w-full"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Facilis dignissimos reiciendis distinctio alias inventore
+                      officiis repellat beatae in nulla, fugiat quaerat veniam
+                      accusamus quam odio, laboriosam a vitae accusantium
+                      doloremque.
+                    </Tab.Panel>
+                  </Tab.Panels>
+                )
+              })}
+            </Tab.Group>
+          </div>
+        </Grid>
         <div className="grid grid-cols-3 mb-[245px]">
           {gallery.map((el, i) => {
             return (

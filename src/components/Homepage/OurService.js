@@ -4,16 +4,16 @@ import Grid from '../Common/Grid'
 import { Tab } from '@headlessui/react'
 import CardProduct from './components/CardProduct'
 import packageProduct from '@/data/packageProduct.json'
-const OurService = () => {
-  const serviceButton = [
-    'NFT',
-    'Dark Art',
-    'Ilustration',
-    'Logo',
-    'ArtWork',
-    'Other',
-  ]
+export const serviceButton = [
+  'NFT',
+  'Dark Art',
+  'Ilustration',
+  'Logo',
+  'ArtWork',
+  'Other',
+]
 
+const OurService = () => {
   return (
     <Grid className={'mb-14 lg:mb-[200px]'}>
       <div className="col-start-2 col-span-2 lg:col-span-3">

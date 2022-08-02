@@ -47,7 +47,10 @@ const Footer = () => {
                     placeholder="Input your e-mail here..."
                   />
                 </div>
-                <Button className={'sm:max-w-[186px] w-full'} variant="primary">
+                <Button
+                  className={'sm:max-w-[186px] w-full h-11 sm:h-auto'}
+                  variant="primary"
+                >
                   Send
                 </Button>
               </form>

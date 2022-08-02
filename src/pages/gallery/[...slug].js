@@ -2,6 +2,7 @@ import Container from '@/components/Common/Container'
 import Grid from '@/components/Common/Grid'
 import Sidebar from '@/components/GalleryDetails/Sidebar'
 import Thumbnails from '@/components/GalleryDetails/Thumbnails'
+import Topbar from '@/components/GalleryDetails/Topbar'
 import Layout from '@/components/Layout/Layout'
 
 import Image from 'next/image'
@@ -12,16 +13,16 @@ const GalleryDetails = () => {
     <Layout>
       <Thumbnails />
       <Container className={'mb-52'}>
-        <Grid className={'pt-11'}>
+        <Grid className={' pt-3 sm:pt-11'}>
           <div className="cols-span-1 lg:col-span-2 h-full hidden sm:block">
             <Sidebar />
           </div>
-          <div className="col-span-full sm:col-span-3 lg:col-span-10 flex flex-col gap-7">
-           
-            <h6 className="text-xl font-semibold font-sf-pro">
+          <div className="col-span-full sm:col-span-3 lg:col-span-10 flex flex-col gap-3 sm:gap-7">
+            <Topbar />
+            <h6 className="text-sm sm:text-xl font-semibold font-sf-pro">
               Lörem ipsum intravask askap kromovis, jag nåktigt.{' '}
             </h6>
-            <p>
+            <p className="text-xs sm:text-base">
               Lörem ipsum infrabel tibelt dena teng i kravallant laligt autokon,
               bask. Semigisk krona, oaktat spen, i saskapet laråsm hemilig samt
               suling i däre fast tidehet astrong pejåbelt, i hemir om ände i
@@ -33,7 +34,7 @@ const GalleryDetails = () => {
               ner, däsam nenygisk inte känera. Lurar musam niment: biossade i
               polyning, mobildagis sotusessa murade primafiering or.
             </p>
-            <p>
+            <p className="text-xs sm:text-base">
               Industrisafari temposion rågigt obuligen och pretägt prov puktigt
               råvabel eftersom relagon tiskapet. Fuliga köns, oska behet.
               Beledes monodera emedan nylörade. Trav blåbrun vakärar donde ör
@@ -50,7 +51,7 @@ const GalleryDetails = () => {
               lavis tills kaninade nertad tills automent sarade selur i niss jag
               soligt även om pres, bärårås onenat mosamma. Bev stenov: med mung.
             </p>
-            <div className="w-full h-[337px] relative overflow-hidden">
+            <div className="w-full h-[108px] sm:h-[337px] relative overflow-hidden">
               <Image
                 src={'/gallery-details/thumbnails.png'}
                 alt="thumbnails"
@@ -58,7 +59,7 @@ const GalleryDetails = () => {
                 objectFit={'cover'}
               />
             </div>
-            <p>
+            <p className="text-xs sm:text-base">
               Povis al päpåde pobav trelude i rågon, fast deplar dämus ner dos
               respektive predänat medan vyditura geng, eugon. Faliga råkamöra
               huruvida attefallshus dikyskade, är ytongen kaning kvasirår
@@ -66,7 +67,7 @@ const GalleryDetails = () => {
               dira råvavis flipperförälder. Annonsblockerare benat, jypände
               enera eftersom man alltså influerare päban.{' '}
             </p>
-            <p>
+            <p className="text-xs sm:text-base">
               Nat serade möbelhund som plakygisk astronande geojön dekasaskapet,
               en dirat eftersom nen monopoktig nerat pomösat täng trast i vang.
               Idäbel neskapet pseudodade sel blåljusyrke, inte plalarade inte
@@ -78,7 +79,7 @@ const GalleryDetails = () => {
               mononar än detisagen sav. Dekanera megapp och epidäligt och
               vuvaska jöda sedan bepon i kadär i pretebel.{' '}
             </p>
-            <p>
+            <p className="text-xs sm:text-base">
               Koskap bajödade bagen morotsmobb, ade åråras oråktig, i neskapet
               sona proras pulig diska geon. Nerväxt rer trende, svenna sitt liv.
               Eubenas rell kad inte polilogi bokstav som mid att synform i
