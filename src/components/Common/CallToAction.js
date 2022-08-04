@@ -2,49 +2,60 @@ import React from 'react'
 import Image from 'next/image'
 import Button from './Button'
 import Input from './Input'
+import { useRouter } from 'next/router'
+import clsx from 'clsx'
 
-const CallToAction = ({ className, children, variant }) => {
+const CallToAction = () => {
+  const router = useRouter()
+  const pathUrl = router.pathname
   return (
     <>
-        <div className="border text-white h-[226px] w-auto mb-[389px] bg-brand-quaternary border-brand-primary rounded-lg grid grid-cols-4 -top-28 relative">
+      <div
+        className={clsx(
+          'border text-white p-6 xl:py-[63px] xl:px-[34px] w-auto border-brand-primary bg-brand-quaternary rounded-lg relative  ',
+          pathUrl !== '/contact' ? '-mt-[135px]' : 'mt-[270px] mb-[84px]'
+        )}
+      >
+        <div className="flex items-end flex-col xl:flex-row">
+          <h3 className="font-bold text-xl sm:text-[36px] leading-relaxed xl:mr-2 mx-auto xl:mx-0 mb-6 sm:mb-0">
+            Get informed for our latest update
+          </h3>
 
-            <div className="place-content-center grid-cols-4 mr-[30px]">
-                <p className="ml-[34px] pt-[50px] text-[36px] font-700 leading-[50px] font-prettywise">Get informed for our latest update</p>
+          <form className="w-full lg:max-w-[100%] xl:max-w-[842px] flex flex-col lg:flex-row lg:items-end justify-between gap-8">
+            <div>
+              <label className="block text-white-700 text-base mb-2" for="name">
+                Name
+              </label>
+              <input
+                className="shadow border rounded p-4 h-[54px] w-full lg:w-[300px] xl:w-[296px] py-2 px-3 text-gray-700 leading-tight focus:outline-brand-primary focus:shadow-outline placeholder:text-base"
+                id="name"
+                type="text"
+                placeholder="Input your name here..."
+              />
             </div>
-
-            <div className="grid grid-cols-4">
-                <Input className="grid-cols-4 w-[296px] py-2 px-3" placeholder="Input your name here..."></Input>
+            <div className="">
+              <label
+                className="text-base block text-white-700 mb-2"
+                for="email"
+              >
+                E-mail
+              </label>
+              <input
+                className="shadow appearance-none p-4  h-[54px] w-full lg:w-[300px] xl:w-[296px] border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-brand-primary  placeholder:text-base"
+                id="email"
+                type="text"
+                placeholder="Input your e-mail here..."
+              />
             </div>
-            <div className="grid grid-cols-4">
-                <Input className="grid-cols-4" placeholder="Input your e-mail here..."></Input>
-            </div>
-
-            <div className="grid-cols-4 mt-[111px] mb-[71px] mr-[34px] ml-[32px]">
-                 <Button variant="primary" className="h-[44px] w-[186px]">Send</Button>
-            </div>
-
-
-            <div className="flex flex-wrap bg-brand-senary">
-                <div className="">
-                    <Image width={275} height={60} src="/logo-footer.png" alt="Logo Footer" />
-                </div>
-
-                <div className="grid grid-rows-4">
-                    <div className="">
-                        <p className="w-[187px] h-[83px] text-weight-400 text-brand-neutral line-height:0.875rem text-xs  mb-2">
-                        
-                        Artmazigh studios
-
-                        160 Robinson Road, #14-04
-                        Singapore Business Federation
-                        Centre - 068914, Singapore
-
-                        </p>
-                    </div>
-                </div>
-
-            </div>
+            <Button
+              className={'sm:max-w-[186px] w-full h-11 sm:h-auto'}
+              variant="primary"
+            >
+              Send
+            </Button>
+          </form>
         </div>
+      </div>
     </>
   )
 }
