@@ -1,13 +1,16 @@
 import React from 'react'
 
-const CardProduct = ({ namePackage, listItem, price }) => {
+const CardProduct = ({ namePackage, listItem, price, ...props }) => {
   return (
-    <div className="border border-brand-primary flex flex-col p-3 xl:px-9 xl:pt-14 xl:pb-12 rounded h-auto sm:h-[400px] xl:h-[603px]">
+    <div
+      className="border border-brand-primary flex flex-col p-3 xl:px-9 xl:pt-14 xl:pb-12 rounded h-auto sm:h-[400px] xl:h-[603px] bg-brand-quinary"
+      {...props}
+    >
       <div className="flex mb-3 sm:mb-0">
         <h4 className="font-bold text-sm sm:text-xl xl:text-2xl mb-4 xl:mb-11 break-normal w-[4.25em] sm:w-auto">
           {namePackage}
         </h4>
-        <div className="flex flex-col ml-auto">
+        <div className="flex flex-col ml-auto sm:hidden">
           <p className="text-white mb-1 text-2xs opacity-50">Starts from</p>
           <h6 className="text-white font-bold text-base font-sf-pro">
             $ {price}

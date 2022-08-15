@@ -1,9 +1,9 @@
 import { StarIcon } from '@heroicons/react/solid'
 import React from 'react'
 
-const CardPerson = () => {
+const CardPerson = ({ ...props }) => {
   return (
-    <div className="flex items-start">
+    <div className="flex items-start" {...props}>
       <div className="w-6 h-6 sm:w-10 sm:h-10 lg:h-[60px] lg:w-[60px] rounded-full overflow-hidden flex-shrink-0 mr-6">
         <img
           src="/homepage/testimoni/user-1.png"

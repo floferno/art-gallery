@@ -5,7 +5,10 @@ import Grid from '../Common/Grid'
 const AboutUs = () => {
   return (
     <Grid className="mb-14 lg:mb-[120px]">
-      <div className="col-span-full lg:col-span-6 order-2 lg:order-1 relative">
+      <div
+        className="col-span-full lg:col-span-6 order-2 lg:order-1 relative"
+        data-aos="fade-left"
+      >
         <Image
           width={607}
           height={458}
@@ -16,7 +19,10 @@ const AboutUs = () => {
           quality={100}
         />
       </div>
-      <div className="col-span-full lg:col-span-6 order-1 lg:order-2 flex flex-col">
+      <div
+        className="col-span-full lg:col-span-6 order-1 lg:order-2 flex flex-col"
+        data-aos="fade-right"
+      >
         <div className="flex flex-col">
           <h3 className="text-xl lg:text-2xl font-semibold font-prettywise mb-3 tracking-wide">
             About Us

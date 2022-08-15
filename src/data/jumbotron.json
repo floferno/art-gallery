@@ -1,0 +1,20 @@
+[
+ {
+  "title":"WE BELIEVE IN IMAGINATION",
+  "description": "1,334 people’s have teamed up with us to make their imaginations come true. It’s your turn now! ",
+  "image":"",
+  "bg": "/homepage/slider.png"
+ },
+ {
+  "title":"WE BELIEVE IN ADAPTABILITY",
+  "description": "1,334 people’s have teamed up with us to make their imaginations come true. It’s your turn now! ",
+  "image":"/homepage/jumbotron/slider-2.png",
+  "bg": "/homepage/slider.png"
+ },
+ {
+  "title":"WE BELIEVE IN KNOWLADGE",
+  "description": "1,334 people’s have teamed up with us to make their imaginations come true. It’s your turn now! ",
+  "image":"/homepage/jumbotron/slider-2.png",
+  "bg": "/homepage/slider-2.png"
+ }
+]

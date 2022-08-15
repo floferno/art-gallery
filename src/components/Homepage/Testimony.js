@@ -20,11 +20,18 @@ const Testimony = () => {
     <div className="flex flex-col mb-[200px] sm:mb-[270px]">
       <div className="flex justify-between mb-4 sm:mb-11">
         <Container className={'flex items-center justify-between'}>
-          <h2 className="text-xl sm:text-2xl font-semibold  text-white">
+          <h2
+            className="text-xl sm:text-2xl font-semibold  text-white"
+            data-aos="fade-up"
+          >
             what did they say
           </h2>
 
-          <div className="flex items-center justify-center gap-4">
+          <div
+            className="flex items-center justify-center gap-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <button
               className="h-6 w-6 flex items-center justify-center"
               ref={prevElRef}
@@ -64,7 +71,11 @@ const Testimony = () => {
         >
           {data.slice(0, 7).map((data, i) => (
             <SwiperSlide key={i}>
-              <div className="w-[320px] sm:w-[497px] h-[133px] ">
+              <div
+                className="w-[320px] sm:w-[497px] h-[133px] "
+                data-aos="fade-up"
+                data-aos-delay={`${i * 300}`}
+              >
                 <CardPerson />
               </div>
             </SwiperSlide>

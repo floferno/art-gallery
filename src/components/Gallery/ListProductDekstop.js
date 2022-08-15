@@ -12,7 +12,11 @@ const ListProductDekstop = () => {
           <>
             {/* class parent harus relative kalo childrennya pake class absolute */}
             <Link href={`/gallery/${gallery[i].link}`} passHref>
-              <a>
+              <a
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-delay={`${i * 200}`}
+              >
                 <div className="w-full h-[472px] group relative flex-auto">
                   <Image
                     width={413}

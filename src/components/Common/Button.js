@@ -1,7 +1,7 @@
 import React from 'react'
 import clsx from 'clsx'
 
-const Button = ({ props, children, variant, className, onClick }) => {
+const Button = ({ children, variant, className, onClick, ...props }) => {
   return (
     <button
       onClick={onClick}
@@ -18,6 +18,7 @@ const Button = ({ props, children, variant, className, onClick }) => {
           'text-white bg-transparent hover:bg-brand-primary border-white hover:border-brand-primary',
         ]
       )}
+      {...props}
     >
       {children}
     </button>

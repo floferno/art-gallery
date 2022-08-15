@@ -6,7 +6,7 @@ import Grid from '../Common/Grid'
 export default function Navbar() {
   return (
     <>
-      <div className="w-full bg-navbar-bg">
+      <div className="w-full bg-[#191E29]">
         <Container>
           <Grid>
             <div className="col-span-2 flex items-center">
@@ -29,7 +29,7 @@ export default function Navbar() {
                   Gallery
                 </a>
               </Link>
-              <Link href={'/contact-us'}>
+              <Link href={'/contact'}>
                 <a className="transition-all text-white border-b-transparent text-base lg:text-xl py-5 sm:py-[30px] border-b-4 hover:border-brand-primary hover:text-brand-primary">
                   Contact us
                 </a>
